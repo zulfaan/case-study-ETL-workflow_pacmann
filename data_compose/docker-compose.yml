@@ -1,0 +1,14 @@
+version: '1'
+services:
+  pachotel_db:
+    image: postgres:latest
+    container_name: pachotel_db
+    restart: always
+    environment:
+      - POSTGRES_DB=pachotel
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=cobapassword
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5433:5432 
