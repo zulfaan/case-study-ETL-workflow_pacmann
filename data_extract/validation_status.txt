@@ -1,0 +1,182 @@
+===== Data Quality Pipeline Start for data_extract/extract_payment_data.csv =====
+
+===== Check Data Shape =====
+
+Data Shape for data_extract/extract_payment_data.csv has 401 rows and 7 columns
+
+
+===== Check Data Types =====
+
+Column payment_id has data type int64
+Column reservation_id has data type int64
+Column provider has data type object
+Column account_number has data type int64
+Column payment_status has data type object
+Column payment_date has data type object
+Column expire_date has data type object
+
+
+===== Check Missing Values =====
+
+Columns payment_id has percentages missing values 0%
+Columns reservation_id has percentages missing values 0%
+Columns provider has percentages missing values 0%
+Columns account_number has percentages missing values 0%
+Columns payment_status has percentages missing values 0%
+Columns payment_date has percentages missing values 21%
+Columns expire_date has percentages missing values 0%
+
+
+===== Data Quality Pipeline End =====
+
+===== Data Quality Pipeline Start for data_extract/extract_payment.csv =====
+
+===== Check Data Shape =====
+
+Data Shape for data_extract/extract_payment.csv has 400 rows and 7 columns
+
+
+===== Check Data Types =====
+
+Column payment_id has data type int64
+Column reservation_id has data type int64
+Column provider has data type object
+Column account_number has data type int64
+Column payment_status has data type object
+Column payment_date has data type object
+Column expire_date has data type object
+Column created_at has data type object
+
+
+===== Check Missing Values =====
+
+Columns payment_id has percentages missing values 0%
+Columns reservation_id has percentages missing values 0%
+Columns provider has percentages missing values 0%
+Columns account_number has percentages missing values 0%
+Columns payment_status has percentages missing values 0%
+Columns payment_date has percentages missing values 21%
+Columns expire_date has percentages missing values 0%
+Columns created_at has percentages missing values 0%
+
+
+===== Data Quality Pipeline End =====
+
+===== Data Quality Pipeline Start for data_extract/extract_reservation.csv =====
+
+===== Check Data Shape =====
+
+Data Shape for data_extract/extract_reservation.csv has 400 rows and 7 columns
+
+
+===== Check Data Types =====
+
+Column reservation_id has data type int64
+Column customer_id has data type int64
+Column reservation_date has data type object
+Column start_date has data type object
+Column end_date has data type object
+Column total_price has data type float64
+Column review has data type object
+Column rating has data type int64
+Column created_at has data type object
+
+
+===== Check Missing Values =====
+
+Columns reservation_id has percentages missing values 0%
+Columns customer_id has percentages missing values 0%
+Columns reservation_date has percentages missing values 0%
+Columns start_date has percentages missing values 0%
+Columns end_date has percentages missing values 0%
+Columns total_price has percentages missing values 0%
+Columns review has percentages missing values 0%
+Columns rating has percentages missing values 0%
+Columns created_at has percentages missing values 0%
+
+
+===== Data Quality Pipeline End =====
+
+===== Data Quality Pipeline Start for data_extract/extract_customer.csv =====
+
+===== Check Data Shape =====
+
+Data Shape for data_extract/extract_customer.csv has 1000 rows and 7 columns
+
+
+===== Check Data Types =====
+
+Column customer_id has data type int64
+Column first_name has data type object
+Column last_name has data type object
+Column email has data type object
+Column phone has data type object
+Column created_at has data type object
+
+
+===== Check Missing Values =====
+
+Columns customer_id has percentages missing values 0%
+Columns first_name has percentages missing values 0%
+Columns last_name has percentages missing values 0%
+Columns email has percentages missing values 0%
+Columns phone has percentages missing values 0%
+Columns created_at has percentages missing values 0%
+
+
+===== Data Quality Pipeline End =====
+
+===== Data Quality Pipeline Start for data_extract/extract_reservation_room.csv =====
+
+===== Check Data Shape =====
+
+Data Shape for data_extract/extract_reservation_room.csv has 400 rows and 7 columns
+
+
+===== Check Data Types =====
+
+Column reservation_room_id has data type int64
+Column reservation_id has data type int64
+Column room_id has data type int64
+Column created_at has data type object
+
+
+===== Check Missing Values =====
+
+Columns reservation_room_id has percentages missing values 0%
+Columns reservation_id has percentages missing values 0%
+Columns room_id has percentages missing values 0%
+Columns created_at has percentages missing values 0%
+
+
+===== Data Quality Pipeline End =====
+
+===== Data Quality Pipeline Start for data_extract/extract_room.csv =====
+
+===== Check Data Shape =====
+
+Data Shape for data_extract/extract_room.csv has 200 rows and 7 columns
+
+
+===== Check Data Types =====
+
+Column room_id has data type int64
+Column room_type_id has data type int64
+Column room_floor has data type int64
+Column availability has data type bool
+Column hotel_id has data type int64
+Column created_at has data type object
+
+
+===== Check Missing Values =====
+
+Columns room_id has percentages missing values 0%
+Columns room_type_id has percentages missing values 0%
+Columns room_floor has percentages missing values 0%
+Columns availability has percentages missing values 0%
+Columns hotel_id has percentages missing values 0%
+Columns created_at has percentages missing values 0%
+
+
+===== Data Quality Pipeline End =====
+
