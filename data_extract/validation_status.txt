@@ -33,7 +33,7 @@ Columns expire_date has percentages missing values 0%
 
 ===== Check Data Shape =====
 
-Data Shape for data_extract/extract_payment.csv has 400 rows and 7 columns
+Data Shape for data_extract/extract_payment.csv has 400 rows and 8 columns
 
 
 ===== Check Data Types =====
@@ -66,7 +66,7 @@ Columns created_at has percentages missing values 0%
 
 ===== Check Data Shape =====
 
-Data Shape for data_extract/extract_reservation.csv has 400 rows and 7 columns
+Data Shape for data_extract/extract_reservation.csv has 400 rows and 9 columns
 
 
 ===== Check Data Types =====
@@ -101,7 +101,7 @@ Columns created_at has percentages missing values 0%
 
 ===== Check Data Shape =====
 
-Data Shape for data_extract/extract_customer.csv has 1000 rows and 7 columns
+Data Shape for data_extract/extract_customer.csv has 1000 rows and 6 columns
 
 
 ===== Check Data Types =====
@@ -130,7 +130,7 @@ Columns created_at has percentages missing values 0%
 
 ===== Check Data Shape =====
 
-Data Shape for data_extract/extract_reservation_room.csv has 400 rows and 7 columns
+Data Shape for data_extract/extract_reservation_room.csv has 400 rows and 4 columns
 
 
 ===== Check Data Types =====
@@ -155,7 +155,7 @@ Columns created_at has percentages missing values 0%
 
 ===== Check Data Shape =====
 
-Data Shape for data_extract/extract_room.csv has 200 rows and 7 columns
+Data Shape for data_extract/extract_room.csv has 200 rows and 6 columns
 
 
 ===== Check Data Types =====
