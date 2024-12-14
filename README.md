@@ -6,17 +6,13 @@ Proyek ini menunjukkan bagaimana membangun pipeline ETL menggunakan **Luigi**. P
 ### Desain Pipeline ETL yang Diusulkan
 Pipeline ETL ini melibatkan beberapa tahap: ekstraksi, validasi, transformasi, dan pemuatan. Desain pipeline adalah sebagai berikut:
 
-<center>
-<img src="https://sekolahdata-assets.s3.ap-southeast-1.amazonaws.com/notebook-images/mde-intro-to-data-eng/15-01.png" width=70%>
-</center>
-
 ### Pembagian Tugas
 
 1. **Ekstraksi Data:**
    - **Sumber Data:**
      - API: [Data Pembayaran](https://shandytepe.github.io/payment.json)
      - Database: Data Hotel
-   - **Tindakan:** Ekstrak data dari sumber-sumber tersebut dan simpan output sebagai file `.csv` di folder `live_class_w8/data/raw`.
+   - **Tindakan:** Ekstrak data dari sumber-sumber tersebut dan simpan output sebagai file `.csv` di folder `data_extract`.
 
 2. **Validasi Data:**
    - **Tugas Validasi:**
@@ -32,15 +28,10 @@ Pipeline ETL ini melibatkan beberapa tahap: ekstraksi, validasi, transformasi, d
        - `reservation` (DB Hotel)
        - `customer` (DB Hotel)
    - **Tindakan:** Lakukan transformasi yang diperlukan, seperti penggabungan, penambahan kolom baru, dan penanganan nilai yang hilang atau salah.
-   - Setelah transformasi berhasil, simpan data hasilnya sebagai file `.csv` di folder `live_class_w8/data/transform`.
-
-<center>
-<img src="https://sekolahdata-assets.s3.ap-southeast-1.amazonaws.com/notebook-images/mde-intro-to-data-eng/15-02.png" width=80%>
-</center>
+   - Setelah transformasi berhasil, simpan data hasilnya sebagai file `.csv` di folder `data_transform`.
 
 4. **Memuat Data ke Data Warehouse:**
    - **Tindakan:** Muat data yang telah ditransformasikan ke dalam Data Warehouse.
-   - Anda dapat merujuk ke dokumentasi untuk mengatur Data Warehouse [di sini](https://github.com/shandytepe/live-class-w8-intro-to-data-eng/tree/main/docker-db).
 
 5. **Menggabungkan Semua Pipeline:**
    - **Tindakan:** Gunakan **Luigi** untuk mengorkestrasi dan menggabungkan ekstraksi, validasi, transformasi, dan pemuatan data ke dalam satu pipeline yang terintegrasi.
