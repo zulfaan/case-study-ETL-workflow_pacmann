@@ -10,7 +10,7 @@ Pipeline ETL ini melibatkan beberapa tahap: ekstraksi, validasi, transformasi, d
 
 1. **Ekstraksi Data:**
    - **Sumber Data:**
-     - API: [Data Pembayaran](https://shandytepe.github.io/payment.json)
+     - API: [Data Payment](https://shandytepe.github.io/payment.json)
      - Database: Data Hotel
    - **Tindakan:** Ekstrak data dari sumber-sumber tersebut dan simpan output sebagai file `.csv` di folder `data_extract`.
 
