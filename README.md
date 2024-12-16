@@ -16,9 +16,9 @@ Pipeline ETL ini melibatkan beberapa tahap: ekstraksi, validasi, transformasi, d
 
 2. **Validasi Data:**
    - **Tugas Validasi:**
-     - Periksa bentuk data
-     - Periksa tipe data kolom
-     - Periksa nilai yang hilang (missing values)
+     - Mencari tahu bentuk data 
+     - Mencari tahu tipe data kolom
+     - Mencari tahu nilai yang hilang (missing values)
    - **Tindakan:** Validasi data yang diekstrak dan laporkan jika ada ketidaksesuaian.
 
 3. **Transformasi Data:**
